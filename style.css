@@ -30,6 +30,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: var(--main-background-light);
     width: 100%;
+    transition: .3s ease-out;
 }
 
 body.dark, body.dark header, body.dark .background, body.dark .skills, body.dark .experience, body.dark .featured {
