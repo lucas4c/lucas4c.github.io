@@ -52,6 +52,8 @@ export default
                 {
                     name : "Hall",
                     description : "Music News Website",
+                    size: "tall",
+                    style: "simple",
                     image : "./public/images/hall-macbook.png"
                 }
 
@@ -134,18 +136,19 @@ export default
                 {
                     name : "Hall",
                     description : "Site de Notícias de Músicas",
+                    style: "simple",
+                    size: "tall",
                     image : "./public/images/hall-macbook.png"
                 }
-
             ],
 
             socialMedia : [
                 { 
-                    link : "https://www.instagram.com/luke4c",
+                    link : "https://www.instagram.com/luke.drg",
                     image : "/public/images/colored-instagram.svg"
                 },
                 { 
-                    link : "https://twitter.com/lucas_4c",
+                    link : "https://twitter.com/lukeLXIX",
                     image : "/public/images/colored-twitter.svg"
                 },
                 { 

@@ -391,7 +391,7 @@ footer {
 .card {
     background: var(--secondary-background-light);
     width: 20rem;
-    height: 25rem;
+    height: 20rem;
     position: relative;
     border-radius: 12pt;
     transition: 300ms ease;
@@ -400,6 +400,14 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.small {
+    height: 20rem;
+}
+
+.tall {
+    height: 40rem;
 }
 
 body.dark .card {

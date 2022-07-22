@@ -83,7 +83,7 @@ document.querySelector('.featured').innerHTML = `
         <h4 class="featured-title">${data.projectsTitle}</h4>
         <div class="featured-card-view" data-aos="fade-up">
             ${data.projects.map((project) => {
-                return `<div class="card">
+                return `<div class="card ${project.size} ${project.style}">
                     <div class="card-text">
                         <p class="card-title">${project.name}</p>
                         <p class="card-description">${project.description}</p>
