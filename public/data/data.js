@@ -61,11 +61,11 @@ export default
 
             socialMedia : [
                 { 
-                    link : "https://www.instagram.com/luke4c",
+                    link : "https://www.instagram.com/luke.drg",
                     image : "/public/images/colored-instagram.svg"
                 },
                 { 
-                    link : "https://twitter.com/lucas_4c",
+                    link : "https://twitter.com/lukeLXIX",
                     image : "/public/images/colored-twitter.svg"
                 },
                 { 
