@@ -55,6 +55,13 @@ export default
                     size: "tall",
                     style: "simple",
                     image : "./public/images/hall-macbook.png"
+                },
+                {
+                    name : "Salão Silvia Presentation",
+                    description : "Business Presentation Website",
+                    style: "simple",
+                    size: "tall",
+                    image : "./public/images/salaosilvia.png"
                 }
 
             ],
@@ -139,6 +146,13 @@ export default
                     style: "simple",
                     size: "tall",
                     image : "./public/images/hall-macbook.png"
+                },
+                {
+                    name : "Site de Apresentação Salão Silvia",
+                    description : "Site Institucional",
+                    style: "simple",
+                    size: "tall",
+                    image : "./public/images/salaosilvia.png"
                 }
             ],
 
