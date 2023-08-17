@@ -3,7 +3,18 @@ export default
         enUS : {
             hello : "Hi, I'm",
             name : "Luke",
-            tagline : "I'm a Design-Minded Software Engineer and CompSci Student living in Brazil.",
+            taglines : [
+                {
+                    beginning: "I'm a ",
+                    important: "Design-Minded ",
+                    end: "Software Engineer"
+                },
+                {
+                    beginning: "and ",
+                    important: "Computer Science ",
+                    end: "student living in brazil."
+                }
+            ],
             contact : "Get in touch",
             email : "lucas4c@hotmail.com",
             backgroundTitle : "Background",
@@ -31,11 +42,6 @@ export default
             ],
             experienceTitle : "Experience & Education",
             experience : [
-                {
-                    place : "Poslope Digital Solutions",
-                    time : "2020 - Present",
-                    position : "CEO"
-                },
                 {
                     place : "Universidade Federal do Rio Grande do Sul",
                     time : "2019 - Present",
@@ -94,7 +100,18 @@ export default
         ptBR : {
             hello : "Olá, eu sou o",
             name : "Lucas",
-            tagline : "Graduando em Ciência da Computação e programador focado em Design vivendo no Brasil.",
+            taglines : [
+                {
+                    beginning: "Aluno de ",
+                    important: "Ciência da Computação ",
+                    end: "pela UFRGS "
+                },
+                {
+                    beginning: "e ",
+                    important: "Engenheiro de Software ",
+                    end: "focado em Design vivendo no Brasil."
+                }
+            ],
             contact : "Entre em contato",
             email : "lucas4c@hotmail.com",
             backgroundTitle : "Background",
@@ -122,11 +139,6 @@ export default
             ],
             experienceTitle : "Experiência e Educação",
             experience : [
-                {
-                    place : "Poslope Digital Solutions",
-                    time : "2020 - Presente",
-                    position : "CEO"
-                },
                 {
                     place : "Universidade Federal do Rio Grande do Sul",
                     time : "2019 - Presente",

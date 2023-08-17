@@ -31,7 +31,10 @@ toggle.addEventListener('click', () => {
 
 document.querySelector('header').innerHTML = `
     <h1 class="hello">${data.hello}<span class="name"> ${data.name}</span> &#128075;</h1>
-    <h2 class="tagline">${data.tagline}
+    <h2 class="tagline">
+        ${data.taglines.map((tagline)=>{
+            return `${tagline.beginning} <span class="tagline-keyword"> ${tagline.important}</span> ${tagline.end}`
+        }).join(' ')}
     </h2>
     <h3 class="contact">${data.contact} <a href="" class="email">${data.email}</a></h3>
 `;
@@ -46,18 +49,21 @@ document.querySelector('.background').innerHTML = `
 `
 
 document.querySelector('.skills').innerHTML = `
-    <h4 class="skills-title" data-aos="fade-up">${data.skillsTitle}</h4>
-    <div class="skills-container">
-        ${data.skills.map((category) => {
-            return `<div class="skills-category" data-aos="fade-left">
-                        <p class="skills-category-title">${category.name}</p>
-                        <ul>
-                            ${category.content.map((item)=> {
-                                return `<li class="skills-item">${item}</li>`
-                            }).join('')}
-                        </ul>
-                    </div>`
-        }).join('')}
+    <div class="skills-title-container">
+        <h4 class="skills-title" data-aos="fade-up">${data.skillsTitle}</h4>
+        <div class="skills-container">
+        
+            ${data.skills.map((category) => {
+                return `<div class="skills-category" data-aos="fade-left">
+                            <p class="skills-category-title">${category.name}</p>
+                            <ul>
+                                ${category.content.map((item)=> {
+                                    return `<li class="skills-item">${item}</li>`
+                                }).join('')}
+                            </ul>
+                        </div>`
+            }).join('')}
+        </div>
     </div>
 `
 
