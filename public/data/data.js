@@ -43,6 +43,11 @@ export default
             experienceTitle : "Experience & Education",
             experience : [
                 {
+                    place : "UFRGS Data Center",
+                    time : "2023 - Present",
+                    position : "Developer"
+                },
+                {
                     place : "Universidade Federal do Rio Grande do Sul",
                     time : "2019 - Present",
                     position : "ComputerScience Graduate Student"
@@ -139,6 +144,11 @@ export default
             ],
             experienceTitle : "Experiência e Educação",
             experience : [
+                {
+                    place : "Centro de Processamento de Dados da UFRGS",
+                    time : "2023 - Presente",
+                    position : "Desenvolvedor"
+                },
                 {
                     place : "Universidade Federal do Rio Grande do Sul",
                     time : "2019 - Presente",
