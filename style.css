@@ -403,7 +403,6 @@ footer {
 }
 
 .card {
-    cursor: none;
     background: var(--secondary-background-light);
     width: 20rem;
     height: 20rem;
