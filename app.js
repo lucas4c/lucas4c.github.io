@@ -94,7 +94,9 @@ document.querySelector('.featured').innerHTML = `
                         <p class="card-title">${project.name}</p>
                         <p class="card-description">${project.description}</p>
                     </div>
-                    <img src="${project.image}" alt="" class="card-image">
+                    <div class="card-image-container">
+                        <img src="${project.image}" alt="" class="card-image">
+                    </div>
                     </div>
                 `
             }).join('')}
