@@ -73,7 +73,7 @@ document.querySelector('.experience').innerHTML = `
     ${data.experience.map((item) => {
         return `<div class="experience-item" data-aos="fade-up">
                     <div class="experience-place">
-                        <a href="" >${item.place}</a>
+                        <a target="_blank" href="${item.link}" >${item.place}</a>
                         <span class="experience-time">${item.time}</span>
                     </div>
                     <div class="experience-type">

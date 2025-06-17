@@ -142,6 +142,7 @@ footer {
 }
 
 #toggle {
+    cursor: pointer;
     height: 1.625rem;
     width: 3rem;
     background: var(--secondary-text-light);
@@ -402,6 +403,7 @@ footer {
 }
 
 .card {
+    cursor: none;
     background: var(--secondary-background-light);
     width: 20rem;
     height: 20rem;
@@ -428,7 +430,6 @@ body.dark .card {
 }
 
 .card:hover {
-    cursor: pointer;
     transform: translateY(-2pt);
 }
 
@@ -448,7 +449,9 @@ body.dark .card {
 
 .card-image {
     margin: 1rem;
-    width: 80%;
+    max-width: 80%;
+    max-height: 70%;
+    border-radius: 12pt;
 }
 
     @media screen and (max-width: 480px) {
