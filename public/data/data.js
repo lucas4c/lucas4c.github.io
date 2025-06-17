@@ -12,7 +12,7 @@ export default
                 {
                     beginning: "and ",
                     important: "Computer Science ",
-                    end: "student living in brazil."
+                    end: "student living in Brazil."
                 }
             ],
             contact : "Get in touch",
