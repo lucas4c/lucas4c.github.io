@@ -12,7 +12,7 @@ export default
                 {
                     beginning: "and ",
                     important: "Computer Science ",
-                    end: "student living in brazil."
+                    end: "student living in Brazil."
                 }
             ],
             contact : "Get in touch",
@@ -67,27 +67,27 @@ export default
                     name : "Humanlink",
                     description : "Next.js App",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/humanlink.png"
                 },
                 {
                     name : "Biorrepositório CBBio",
                     description : "UFRGS Research System Module",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/biorrepositorio.png"
                 },
                 {
                     name : "Findar",
                     description : "Java Desktop App",
                     style: "simple",
-                    size: "tall",
+                    size: "v-stretch",
                     image : "./public/images/findar.png"
                 },
                 {
                     name : "Hall",
                     description : "Music News Website",
-                    size: "tall",
+                    size: "h-stretch",
                     style: "simple",
                     image : "./public/images/hall-macbook.png"
                 },
@@ -95,7 +95,7 @@ export default
                     name : "Salão Silvia Presentation",
                     description : "Business Presentation Website",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/salaosilvia.png"
                 }
 
@@ -185,35 +185,35 @@ export default
                     name : "Humanlink",
                     description : "Next.js App",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/humanlink.png"
                 },
                 {
                     name : "Biorrepositório CBBio",
                     description : "Módulo do Sistema de Pesquisa da UFRGS",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/biorrepositorio.png"
                 },
                 {
                     name : "Findar",
                     description : "Java Desktop App",
                     style: "simple",
-                    size: "tall",
+                    size: "v-stretch",
                     image : "./public/images/findar.png"
                 },
                 {
                     name : "Hall",
                     description : "Site de Notícias de Músicas",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/hall-macbook.png"
                 },
                 {
                     name : "Site de Apresentação Salão Silvia",
                     description : "Site Institucional",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/salaosilvia.png"
                 }
             ],
