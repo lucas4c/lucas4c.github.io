@@ -36,7 +36,7 @@ document.querySelector('header').innerHTML = `
             return `${tagline.beginning} <span class="tagline-keyword"> ${tagline.important}</span> ${tagline.end}`
         }).join(' ')}
     </h2>
-    <h3 class="contact">${data.contact} <a href="" class="email">${data.email}</a></h3>
+    <h3 class="contact">${data.contact} <a href="mailto:${data.email}" class="email">${data.email}</a></h3>
 `;
 
 document.querySelector('.background').innerHTML = `

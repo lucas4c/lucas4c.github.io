@@ -12,14 +12,14 @@ export default
                 {
                     beginning: "and ",
                     important: "Computer Science ",
-                    end: "student living in brazil."
+                    end: "student living in Brazil."
                 }
             ],
             contact : "Get in touch",
             email : "lucas.nascimento@inf.ufrgs.br",
             backgroundTitle : "Background",
             backgroundText : ["I'm currently graduating on Computer Science at Universidade Federal do Rio Grande do Sul and working as a Software Developer in CPD-UFRGS in Porto Alegre, Brazil.",
-                                "As a Software Engineer, I enjoy bridging the gap between engineering and design - focusing on creating a product that joins scalabilty and efficiency, to an engaging and intuitive, pixel-perfect user experience.",
+                                "As a Software Engineer, I enjoy bridging the gap between engineering and design - focusing on creating a product that joins scalabilty and efficiency to an engaging and intuitive, pixel-perfect user experience.",
                                 "When I'm not in front of the computer, I'm probably cooking or playing guitar. Maybe at the gym or eating a pizza. Ironic, yeah, I know."],
             skillsTitle : "Skills",
                 skills : [
@@ -52,7 +52,7 @@ export default
                     place : "Universidade Federal do Rio Grande do Sul",
                     link : "https://www.ufrgs.br/site/",
                     time : "2019 - Present",
-                    position : "ComputerScience Graduate Student"
+                    position : "Computer Science Graduate Student"
                 },
                 {
                     place : "QI: Technical School",
@@ -67,27 +67,27 @@ export default
                     name : "Humanlink",
                     description : "Next.js App",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/humanlink.png"
                 },
                 {
                     name : "Biorrepositório CBBio",
                     description : "UFRGS Research System Module",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/biorrepositorio.png"
                 },
                 {
                     name : "Findar",
                     description : "Java Desktop App",
                     style: "simple",
-                    size: "tall",
+                    size: "v-stretch",
                     image : "./public/images/findar.png"
                 },
                 {
                     name : "Hall",
                     description : "Music News Website",
-                    size: "tall",
+                    size: "h-stretch",
                     style: "simple",
                     image : "./public/images/hall-macbook.png"
                 },
@@ -95,7 +95,7 @@ export default
                     name : "Salão Silvia Presentation",
                     description : "Business Presentation Website",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/salaosilvia.png"
                 }
 
@@ -103,16 +103,8 @@ export default
 
             socialMedia : [
                 { 
-                    link : "https://www.instagram.com/luke.drg",
+                    link : "https://www.instagram.com/luke.drago",
                     image : "/public/images/colored-instagram.svg"
-                },
-                { 
-                    link : "https://twitter.com/lukeLXIX",
-                    image : "/public/images/colored-twitter.svg"
-                },
-                { 
-                    link : "https://www.facebook.com/luke4c",
-                    image : "/public/images/colored-facebook.svg"
                 },
                 { 
                     link : "https://github.com/lucas4c",
@@ -145,7 +137,7 @@ export default
             email : "lucas.nascimento@inf.ufrgs.br",
             backgroundTitle : "Background",
             backgroundText : ["Atualmente estou cursando Ciência da Computação na UFRGS, e atuando como Desenvolvedor de Software no CPD-UFRGS em Porto Alegre.",
-                                "Como Desenvolvedor de Software, gosto de explorar a união entre engenharia e design - focando em criar um produto que une escalabilidade e eficiência, à uma experiência intuitiva e atraente ao usuário.",
+                                "Como Desenvolvedor de Software, gosto de explorar a união entre engenharia e design - focando em criar um produto que une escalabilidade e eficiência a uma experiência intuitiva e atraente ao usuário.",
                                 "Quando não estou na frente do computador, eu provavelmente estou cozinhando ou tocando violão. Talvez na academia, ou comendo uma pizza... Sim, irônico, eu sei."],
             skillsTitle : "Habilidades",
             skills : [
@@ -193,35 +185,35 @@ export default
                     name : "Humanlink",
                     description : "Next.js App",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/humanlink.png"
                 },
                 {
                     name : "Biorrepositório CBBio",
-                    description : "Módulo do sistema de pesquisa da UFRGS",
+                    description : "Módulo do Sistema de Pesquisa da UFRGS",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/biorrepositorio.png"
                 },
                 {
                     name : "Findar",
                     description : "Java Desktop App",
                     style: "simple",
-                    size: "tall",
+                    size: "v-stretch",
                     image : "./public/images/findar.png"
                 },
                 {
                     name : "Hall",
                     description : "Site de Notícias de Músicas",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/hall-macbook.png"
                 },
                 {
                     name : "Site de Apresentação Salão Silvia",
                     description : "Site Institucional",
                     style: "simple",
-                    size: "tall",
+                    size: "h-stretch",
                     image : "./public/images/salaosilvia.png"
                 }
             ],
